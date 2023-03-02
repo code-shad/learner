@@ -1,8 +1,8 @@
 html,
 body {
-   height: 100%; 
-   width: 100%;
-} 
+    height: 100%;
+    width: 100%;
+}
 
 body {
     align-items: center;
@@ -12,7 +12,7 @@ body {
     padding: 40px;
     position: absolute;
 }
-  
+
 .form-signin {
     max-width: 330px;
     padding: 15px;
@@ -28,22 +28,24 @@ body {
     margin-bottom: -1px;
 }
 
-.middle{
+.middle {
     border-radius: 0;
     margin-bottom: -1px;
 }
 
-.form-image{
+.form-image {
     align-self: center !important;
 }
+
 .bottom {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-bottom: 10px;
 }
-.form-div{
+
+.form-div {
     background-color: #E5E0FF;
-    border:  groove  #86d8bb;
+    border: groove #86d8bb;
     border-radius: 5%;
     height: 450px;
     /* border-style: groove;
@@ -56,9 +58,11 @@ body {
     width: 22%;
     z-index: 3313;
 }
-.nav{
+
+.nav {
+
     display: block;
-    margin: 0 0 10px 0 ;
+    margin: 0 0 10px 0;
     margin-bottom: -20px;
     overflow: hidden;
     position: fixed;
@@ -78,30 +82,34 @@ body {
     text-align: justify;
     width: 75%;
 }
+
 .landing.h1 {
     display: grid;
     padding: 20px;
 }
 
-.navbar{
+.navbar {
     width: 100%;
 }
-h4{
+
+h4 {
     padding: 0;
     top: -233px;
 }
 
 
-.space{
+.space {
     background-color: aqua;
     bottom: 0;
     height: 100px;
     width: 100px;
 }
-.mydiv div{
+
+.mydiv div {
     display: inline-block;
     /* float: left; */
 }
+
 #footer {
     background-color: #23d5ba;
     bottom: -200px;
@@ -112,19 +120,23 @@ h4{
     text-align: center;
     width: 100%;
 }
+
 .socials {
     place-items: center stretch;
 }
+
 .icon {
     color: #DDDDDD;
     padding: 25px 15px 10px;
     transform: scale(1.5);
 }
-.copyright{
+
+.copyright {
     color: #DDDDDD;
     padding: 25px;
 }
-#features{
+
+#features {
     bottom: -285px;
     background-color: #ce8787;
     display: block;
@@ -134,7 +146,7 @@ h4{
     z-index: 99999999;
 }
 
-.landing-text{
+.landing-text {
     background-color: #ce8787;
     width: 200px;
     height: 150px;
@@ -143,7 +155,8 @@ h4{
 
 
 @media (max-width: 768px) {
-html,
+
+    html,
     body {
         height: 100%;
         width: 100%;
@@ -157,52 +170,56 @@ html,
         padding: 10px;
         position: absolute;
     }
-        .landing {
-            background-color: aliceblue;
-            display: grid;
-            height: 100%;
-            margin: 0;
-            position: relative;
-            text-align: center;
-            width: 100%;
-        }
-    
-        .landing.h1 {
-            display: block;
-            padding: 8px;
-            text-align: center;
-        }
-        .form-div {
-            background-color: #E5E0FF;
-            border: groove #86d8bb;
-            border-radius: 5%;
-            height: 450px;
-            /* border-style: groove;
+
+    .landing {
+        background-color: aliceblue;
+        display: grid;
+        height: 100%;
+        margin: 0;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .landing.h1 {
+        display: block;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .form-div {
+        background-color: #E5E0FF;
+        border: groove #86d8bb;
+        border-radius: 5%;
+        height: 450px;
+        /* border-style: groove;
         border-style: outset solid 2px #894e93; */
-            padding: 8px;
-            text-align: center;
-            top: 8px;
-            margin-right: 0;
-            position: relative;
-            width: 30%;
-            z-index: 3313;
-            align-self: center;
-            display: flex;
-            left: 250px;
-        }
-        #footer {
-            background-color: #23d5ba;
-            bottom: -650px;
-            display: inline-block;
-            height: auto;
-            place-items: center stretch;
-            position: absolute;
-            text-align: center;
-            width: 100%;
-        }
-        .mydiv{
-            align-items: center;
-        }
+        padding: 8px;
+        text-align: center;
+        top: 8px;
+        margin-right: 0;
+        position: relative;
+        width: 30%;
+        z-index: 3313;
+        align-self: center;
+        display: flex;
+        left: 250px;
+    }
+
+    #footer {
+        background-color: #23d5ba;
+        bottom: -650px;
+        display: inline-block;
+        height: auto;
+        place-items: center stretch;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mydiv {
+        align-items: center;
+    }
 }
 
 
