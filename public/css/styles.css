@@ -1,0 +1,217 @@
+html,
+body {
+   height: 100%; 
+   width: 100%;
+} 
+
+body {
+    align-items: center;
+    background-color: aliceblue;
+    display: grid;
+    margin: 0;
+    padding: 40px;
+    position: absolute;
+}
+  
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+}
+
+.middle{
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.form-image{
+    align-self: center !important;
+}
+.bottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+}
+.form-div{
+    background-color: #E5E0FF;
+    border:  groove  #86d8bb;
+    border-radius: 5%;
+    height: 450px;
+    /* border-style: groove;
+    border-style: outset solid 2px #894e93; */
+    padding: 25px;
+    text-align: center;
+    top: 25px;
+    margin-right: 0;
+    position: relative;
+    width: 22%;
+    z-index: 3313;
+}
+.nav{
+    display: block;
+    margin: 0 0 10px 0 ;
+    margin-bottom: -20px;
+    overflow: hidden;
+    position: fixed;
+    text-align: justify;
+    top: 0;
+    width: 100%;
+    z-index: 875283289;
+}
+
+.landing {
+    background-color: aliceblue;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 25px;
+    position: relative;
+    text-align: justify;
+    width: 75%;
+}
+.landing.h1 {
+    display: grid;
+    padding: 20px;
+}
+
+.navbar{
+    width: 100%;
+}
+h4{
+    padding: 0;
+    top: -233px;
+}
+
+
+.space{
+    background-color: aqua;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+}
+.mydiv div{
+    display: inline-block;
+    /* float: left; */
+}
+#footer {
+    background-color: #23d5ba;
+    bottom: -200px;
+    display: inline-block;
+    height: auto;
+    place-items: center stretch;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.socials {
+    place-items: center stretch;
+}
+.icon {
+    color: #DDDDDD;
+    padding: 25px 15px 10px;
+    transform: scale(1.5);
+}
+.copyright{
+    color: #DDDDDD;
+    padding: 25px;
+}
+#features{
+    bottom: -285px;
+    background-color: #ce8787;
+    display: block;
+    height: 250px;
+    position: absolute;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.landing-text{
+    background-color: #ce8787;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        align-items: center;
+        background-color: aliceblue;
+        display: grid;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+    }
+        .landing {
+            background-color: aliceblue;
+            display: grid;
+            height: 100%;
+            margin: 0;
+            position: relative;
+            text-align: center;
+            width: 100%;
+        }
+    
+        .landing.h1 {
+            display: block;
+            padding: 8px;
+            text-align: center;
+        }
+        .form-div {
+            background-color: #E5E0FF;
+            border: groove #86d8bb;
+            border-radius: 5%;
+            height: 450px;
+            /* border-style: groove;
+        border-style: outset solid 2px #894e93; */
+            padding: 8px;
+            text-align: center;
+            top: 8px;
+            margin-right: 0;
+            position: relative;
+            width: 30%;
+            z-index: 3313;
+            align-self: center;
+            display: flex;
+            left: 250px;
+        }
+        #footer {
+            background-color: #23d5ba;
+            bottom: -650px;
+            display: inline-block;
+            height: auto;
+            place-items: center stretch;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+        .mydiv{
+            align-items: center;
+        }
+}
+
+
+
+
+
+/* @media (max-width: 992px) {
+
+}
+@media (max-width: 1200px) {
+
+} */
