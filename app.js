@@ -19,7 +19,7 @@ const mailchimp = require("@mailchimp/mailchimp_marketing")
 const listId = '4d03f2544d'
 
 app.use(express.static(__dirname + '/public'))
-app.use(express.urlencoded({ extended: true })) 
+app.use(express.urlencoded({ extended: true }))
 
 // Setting up MailChimp with details of admin
 
@@ -32,20 +32,19 @@ mailchimp.setConfig({
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/signup.html");
-});   
+});
 
 app.post("/", function (req, res) {
   const firstName = req.body.firstName;
   const lastName = req.body.lastName;
   const email = req.body.email;
-
   // user data or data of members that you wish to
   // subscribe to the mailling list. THE DATA VARIABLE
   // AN ARRAY CONTAINING 2 ELEMENTs. INSIDE THIS 2 ELEMENTs
   // each containing 2 KEY VALUE PAIRES FOr THE EMAIL ADDRESS, THE 
   // STATUS AND  THE FNAME AND LNAME respectively.
-  
-// 2 objects (members and merge_fields)
+
+  // 2 objects (members and merge_fields)
   const data = {
     members: [{
       email_address: email,
@@ -58,10 +57,11 @@ app.post("/", function (req, res) {
     }]
   }
 
+
   // Converting string data to JSON data 
   const jsonData = JSON.stringify(data);
   const url = "https://us9.api.mailchimp.com/3.0/lists/" + listId
- 
+
   // define options for the https request and authenticate
   const options = {
     method: "POST",
