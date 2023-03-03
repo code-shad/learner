@@ -52,7 +52,7 @@ body {
     border-style: outset solid 2px #894e93; */
     padding: 25px;
     text-align: center;
-    top: 25px;
+    top: 25px; 
     margin-right: 0;
     position: relative;
     width: 22%;
@@ -66,7 +66,7 @@ body {
     overflow: hidden;
     position: fixed;
     text-align: justify;
-    top: 0;
+    top: 0; 
     width: 100%;
     z-index: 875283289;
 }

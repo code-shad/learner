@@ -38,7 +38,6 @@ app.post("/", function (req, res) {
   const firstName = req.body.firstName;
   const lastName = req.body.lastName;
   const email = req.body.email;
-
   // user data or data of members that you wish to
   // subscribe to the mailling list. THE DATA VARIABLE
   // AN ARRAY CONTAINING 2 ELEMENTs. INSIDE THIS 2 ELEMENTs
@@ -57,6 +56,7 @@ app.post("/", function (req, res) {
 
     }]
   }
+
 
   // Converting string data to JSON data 
   const jsonData = JSON.stringify(data);
